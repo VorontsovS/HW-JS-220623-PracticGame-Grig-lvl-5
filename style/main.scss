@@ -1,0 +1,79 @@
+.mainContainer {
+    display: flex;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #f9f922;
+}
+
+input[type=Number]{
+   width:80px;
+   border: 2px solid blue;
+   border-radius: 3px;
+}
+
+p {
+    color : blue;
+}
+
+div p {
+    margin: 0;
+}
+
+.fieldCoontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, 50px);
+    border: 2px solid blue;
+    border-radius: 10px;
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+    background-size: 50px 50px;
+    background-position: 0 0, 50px 50px;
+    box-sizing: border-box;
+}
+
+.navigationContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navLeft {
+    border: 15px solid transparent; 
+    border-right: 15px solid green;
+    margin-right: 5px;
+}
+
+.navRight {
+    border: 15px solid transparent; 
+    border-left: 15px solid green;
+    margin-left: 5px;
+}
+
+.navUp {
+    border: 15px solid transparent; 
+    border-bottom: 15px solid green;
+    margin-bottom: 10px;
+}
+
+.navDouwn {
+    border: 15px solid transparent; 
+    border-top: 15px solid green;
+    margin-top: 10px
+}
+
+.obstacle {
+    width: 50px;
+    height: 50px;
+    border: 5px solid grey;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
